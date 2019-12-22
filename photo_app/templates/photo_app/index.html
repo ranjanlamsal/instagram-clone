@@ -1,23 +1,55 @@
 {% extends 'photo_app/base.html' %}
+{% load static %}
+        {% block main_content %}
+        <main class="feed">
 
-{% block title %}
-    Welcome to Tasbir!
+            {% for post in posts %}
+                 <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img
+                            class="photo__avatar"
+                            src="{{post.uploaded_by.profile_pic.url}}"
+                        />
+                    </div>
+                    <div class="{% static 'photo__header-column' %}">
+                        <span class="photo__username"> {{post.uploaded_by.username}}</span>
+                        <span class="photo__location">{{post.location}}</span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+                    <img
+                        class="photo__file"
+                        src="{{post.photo.url}}"
+                    />
+                </div>
+                <div class="photo__info">
+                    <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa fa-heart-o heart fa-lg"></i>
+                        </span>
+                        <span class="photo__icon">
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes">{{post.liked_by.all|length}} like{{post.liked_by|pluralize:"s"}}</span>
+                    <ul class="photo__comments">
+                      {% for comment in post.comments.all %}
+                          <li class="photo__comment">
+                            <span class="photo__comment-author">{{ comment.commented_by.username }}</span>{{comment.text}}
+                        </li>
+
+                       {% endfor %}
+                    </ul>
+                    <span class="photo__time-ago">{{post.created}}</span>
+                    <div class="photo__add-comment-container">
+                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+            {% endfor %}
+
+        </main>
+
 {% endblock %}
-
-{% block main_content %}
-    This is the index page of Tasbir.
-
-    The posts are: <br>
-
-    {% for post in posts %}
-        Created on : {{post.created}} <br>
-        Uploaded by : {{post.uploaded_by.display_name}}
-        There are {{post.comments.all|length}} comments of this photo.
-        Comments:<br>
-        {% for comment in post.comments.all%}
-            {{comment.text}}
-        {% endfor %}
-        <img style="width: 200px; height:auto;" src="{{post.photo.url}}">
-    {% endfor %}
-
-{%endblock%}

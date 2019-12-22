@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="061707a3-9a27-41f6-a0de-f75a8ccff35a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/edit-profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/explore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/feed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/iphone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/feedPhoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/ios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/navLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/images/verified.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo_app/templates/photo_app/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_app/templates/user_app/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_app/templates/user_app/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo_app/templates/photo_app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo_app/templates/photo_app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo_app/templates/photo_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo_app/templates/photo_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasbir/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasbir/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasbir/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasbir/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VKVIihwxFn53nOBYlyAidS5OIE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/photo_app/static" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user_app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/photo_app/static" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="061707a3-9a27-41f6-a0de-f75a8ccff35a" name="Default Changelist" comment="" />
+      <created>1577001695924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577001695924</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="723" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577003117982">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="723" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/60.27.1860.1053@60.27.1860.1053" timestamp="1577003117982" />
+    <state x="646" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1577001703437">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="646" y="381" key="com.intellij.ide.util.TipDialog/60.27.1860.1053@60.27.1860.1053" timestamp="1577001703437" />
+    <state x="636" y="157" width="707" height="792" key="find.popup" timestamp="1577011142782">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="636" y="157" width="707" height="792" key="find.popup/60.27.1860.1053@60.27.1860.1053" timestamp="1577011142782" />
+    <state x="653" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1577011127213">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="653" y="259" width="672" height="678" key="search.everywhere.popup/60.27.1860.1053@60.27.1860.1053" timestamp="1577011127213" />
+  </component>
+</project>
